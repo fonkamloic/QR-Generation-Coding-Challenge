@@ -1,7 +1,8 @@
 import 'package:chopper/chopper.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:qr_challenge/domain/seed.dart';
+
+import '../../domain/seed.dart';
 
 part 'seed_dtos.freezed.dart';
 

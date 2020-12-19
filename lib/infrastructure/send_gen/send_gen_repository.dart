@@ -2,11 +2,12 @@ import 'package:chopper/chopper.dart';
 import 'package:dartz/dartz.dart';
 import 'package:data_connection_checker/data_connection_checker.dart';
 import 'package:injectable/injectable.dart';
-import 'package:qr_challenge/domain/i_send_gen_facade.dart';
-import 'package:qr_challenge/domain/seed.dart';
-import 'package:qr_challenge/domain/seed_failure.dart';
-import 'package:qr_challenge/infrastructure/send_gen/seed_dtos.dart';
-import 'package:qr_challenge/repository/qr_generator_service.dart';
+
+import '../../domain/i_send_gen_facade.dart';
+import '../../domain/seed.dart';
+import '../../domain/seed_failure.dart';
+import '../../repository/qr_generator_service.dart';
+import 'seed_dtos.dart';
 
 @LazySingleton(as: ISeedGenFacade)
 class SeedGenRepository implements ISeedGenFacade {
