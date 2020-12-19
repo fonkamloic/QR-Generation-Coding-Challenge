@@ -1,6 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:qr_challenge/domain/seed.dart';
-import 'package:qr_challenge/domain/seed_failure.dart';
+
+import 'seed.dart';
+import 'seed_failure.dart';
 
 
 abstract class ISeedGenFacade {
