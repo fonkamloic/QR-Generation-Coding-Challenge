@@ -1,13 +1,13 @@
 import 'dart:async';
-import 'dart:convert';
 
 import 'package:bloc/bloc.dart';
 import 'package:dartz/dartz.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
-import 'package:qr_challenge/domain/i_send_gen_facade.dart';
-import 'package:qr_challenge/domain/seed.dart';
-import 'package:qr_challenge/domain/seed_failure.dart';
+
+import '../../domain/i_send_gen_facade.dart';
+import '../../domain/seed.dart';
+import '../../domain/seed_failure.dart';
 
 part 'seed_gen_bloc.freezed.dart';
 part 'seed_gen_event.dart';
