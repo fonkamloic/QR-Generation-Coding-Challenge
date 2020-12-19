@@ -1,8 +1,8 @@
-# QR-generator challegene
+# QR-generator Code challenge
 
 ***
 
-###API server
+### API server
 - A lambda function linked to REST server provides the random seed for the QR generation.
 - Bash URL: [https://fq741r6kaj.execute-api.us-east-2.amazonaws.com/generate]()
 
@@ -48,7 +48,7 @@ function makeSeed(length) {
 
 ``` 
 
-##Project Structure
+## Project Structure
 ```
 .
 +--_Lib
@@ -70,13 +70,13 @@ function makeSeed(length) {
 ```
 
 
-##Code facilitation
-- State managment with `Freezed flutter_bloc`
+## Code facilitation
+- State management with `Freezed flutter_bloc`
 - Dependency injection with `GetIt` and `Injectable` 
 - Testing with `bloc_test`
 - Routing with `auto_route`
 - Code generation with `build_runner`
-- Healthy code base enforced with `lint` and the imutable pros of Kotlin provided by `dartz`
+- Healthy code base enforced with `lint` and the immutable pros of Kotlin provided by `dartz`
 - HTTP client management/generator with `chopper`
 
 ## How to Run and Test 
@@ -84,7 +84,7 @@ function makeSeed(length) {
 1. Clone or Download the project
 2. Update the package dependencies `flutter pub get`
 3. Run the build runner and wait for Success message. `flutter pub run build_runner watch --delete-conflicting-outputs`
-4. 
- 
+4. Run Unit test to check for regression `flutter test` (It should output: All tests passed!)
+5. Build and run app in on device in release mode `flutter run --release`    
 
 
