@@ -1,6 +1,6 @@
 import 'package:data_connection_checker/data_connection_checker.dart';
 import 'package:injectable/injectable.dart';
-import 'package:qr_challenge/repository/qr_generator_service.dart';
+import '../repository/qr_generator_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 @module

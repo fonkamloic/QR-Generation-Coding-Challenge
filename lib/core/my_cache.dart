@@ -1,6 +1,5 @@
 import 'package:injectable/injectable.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'injectable_modules.dart';
 
 const CACHED_SEED = "CACHED_SEED";
 
