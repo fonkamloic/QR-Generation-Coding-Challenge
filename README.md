@@ -78,6 +78,7 @@ function makeSeed(length) {
 - Code generation with `build_runner`
 - Healthy code base enforced with `lint` and the immutable pros of Kotlin provided by `dartz`
 - HTTP client management/generator with `chopper`
+- Continuous Integration with GitHub actions
 
 ## How to Run and Test 
 
