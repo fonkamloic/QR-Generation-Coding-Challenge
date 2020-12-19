@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route_annotations.dart';
-import 'package:qr_challenge/home.dart';
-import 'package:qr_challenge/qr_code_screen.dart';
+
+import '../home.dart';
+import '../qr_code_screen.dart';
 
 @MaterialAutoRouter(
     generateNavigationHelperExtension: true,
